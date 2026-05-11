@@ -74,3 +74,23 @@
   position: relative;
   z-index: 2;
 }
+/* BOTONES HERO */
+.hero .btn {
+  min-width: 180px;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.hero .btn:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
